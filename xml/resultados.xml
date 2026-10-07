@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jornada xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../xsd/resultados.xsd"
+         numero="10" fecha="2026-09-27" liga="Liga MX">
+    
+    <partido id="p1" estadio="Estadio Azteca" estado="Finalizado">
+        <local nombre="Club América" goles="2"/>
+        <visitante nombre="Guadalajara" goles="1"/>
+        <arbitro>Fernando Guerrero</arbitro>
+        <estadisticas>
+            <posesion>54%</posesion>
+            <tiros>14</tiros>
+            <tiros_puerta>6</tiros_puerta>
+            <faltas>12</faltas>
+            <tarjetas_amarillas>3</tarjetas_amarillas>
+            <tarjetas_rojas>0</tarjetas_rojas>
+        </estadisticas>
+    </partido>
+    
+    <partido id="p2" estadio="Estadio Universitario" estado="Finalizado">
+        <local nombre="Tigres UANL" goles="0"/>
+        <visitante nombre="Monterrey" goles="0"/>
+        <arbitro>César Arturo Ramos</arbitro>
+        <estadisticas>
+            <posesion>50%</posesion>
+            <tiros>10</tiros>
+            <tiros_puerta>3</tiros_puerta>
+            <faltas>15</faltas>
+            <tarjetas_amarillas>4</tarjetas_amarillas>
+            <tarjetas_rojas>1</tarjetas_rojas>
+        </estadisticas>
+    </partido>
+    
+</jornada>
